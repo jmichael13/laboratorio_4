@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(221, 219, 219);
+    margin: 0;
+}
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    margin: 0;
+}
+.logo{
+    background-image:url(/src/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    width: 140px;
+    height: 90px;
+    
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    align-self: center;
+}
+
+.menu{
+    background-color:silver;
+    font-weight: bold;
+}
+footer{
+    background-color: silver;
+}
