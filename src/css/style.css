@@ -17,12 +17,18 @@ body{
     height: 90px;
     
 }
-h1{
+.titulo h1{
     margin: 0;
     text-align: center;
     color: blue;
     font-weight: bold;
     align-self: center;
+ }
+
+.container h1{
+    margin: 20px;
+    color: rgb(34, 53, 223);
+    font-weight: bold;
 }
 
 .menu{
