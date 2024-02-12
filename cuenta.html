@@ -33,7 +33,81 @@
         </nav>
     </header>
 
-<!-- pie de pagina -->
+    <main class="container">
+        <div class="row">
+            <section class="col col-12 col-sm-4">
+                <figure class="figure img-thumbnail">
+                    <img src="./src/img/foto.jpg" class="figure-img img-fluid rounded" alt="foto" width="150">
+                    <figcaption class="figure-caption text-center"><button type="button" class="btn">Cambiar foto</button></figcaption>
+                </figure>
+                <button type="button" class="btn btn-outline-primary">Editar perfil</button>
+            </section>
+            <section class="col col-12 col-sm-8">
+                <h2>Perfil</h2>
+                                
+                <form class="row">
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1 btn-sm rounded-0" class="form-label">Nombres</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" value="Jose Michael">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" value="Gomez Solorzano">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Tipo de documento</label>
+                        <select class="form-select" id="floatingSelectGrid">
+                            <option value="1">DNI</option>
+                            <option value="2">Pasaporte</option>
+                            <option value="3">Carnet de extrangeria</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Número de documento</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" value="45275901">
+                    </div>
+                   
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" value="michael_1308@hotmail.com">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Genero</label>
+                        <select class="form-select" id="floatingSelectGrid">
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="3">Otros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" value="Lima - Perú">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Celular</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" value="980218315">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Fecha de nacimiento</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1" value="1988-08-13">
+                    </div>
+                    <div class="mb-3 col-12 col-sm-12 col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1" value="123456">
+                    </div>
+                    
+                    <div class="d-grid gap-2 col-4 mx-auto">
+                        <button class="btn btn-primary" type="button">Guardar cambios</button>
+                    </div>
+                </form>
+
+                
+            </section>
+        </div>
+
+    </main>
+
+    <!-- pie de pagina -->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Productos</a></li>

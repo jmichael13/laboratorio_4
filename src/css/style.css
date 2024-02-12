@@ -24,6 +24,11 @@ body{
     font-weight: bold;
     align-self: center;
  }
+ h2{
+    margin: 20px;
+    color: rgb(34, 53, 223);
+    font-weight: bold;
+ }
 
 .container h1{
     margin: 20px;
